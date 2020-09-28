@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Slide Effect - team members</title>
+    <style>
+        body {
+            background-color: rosybrown;
+            font-family: Arial;
+        }
+        .our-team {
+            background-color: thistle ;
+            margin-top: 100px;
+            padding: 20px;
+        }
+        .title {
+            color: slateblue;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ol {
+            list-style: none;
+            padding: 0;
+        }
+        .profile {
+            background-color: whitesmoke; 
+            text-align: center;
+        }
+        .avatar {
+            width: 300px;
+            transition: 1s;
+        }
+        .avatar:hover  {
+            margin-top: -200px;
+        }
+        .wrapper {
+            background-color: teal;
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;
+            overflow: hidden;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        h2:hover {
+            color: slateblue;
+            transition: 1s;
+        }
+        p:hover {
+            color: slateblue;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="our-team">
+        <h1 class="title">Our Team</h1>
+        <ul>
+            <li class="profile">
+            <div class="wrapper">
+               <img  class="avatar" src="avataaars.png" alt="Nellie M.">
+               <h3>Personal Skills</h3>
+               <ol>
+                   <li>Smart</li>
+                   <li>Creative</li>
+                   <li>Experienced</li>
+               </ol>
+            </div>
+               <h2>Nellie M.</h2>
+               <p>Team Leader</p>
+            </li>
+            <li class="profile">2</li>
+            <li class="profile">3</li>
+        </ul>
+
+    </section>
+</body>
+</html>

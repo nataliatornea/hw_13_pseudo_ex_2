@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Navbar Search</title>
+    <style>
+        body {
+            background-color: tan;
+            font-size: 23px;
+            font-family: Arial;
+            margin: 0;
+        }
+        a {
+            color: teal;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+        header {
+            background-color: wheat;
+            padding: 20px;
+            height: 40px;
+        }
+        form {
+            float: left;
+        }
+        nav {
+            float: right;
+        }
+        input {
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            width: 100px;
+        }
+        input:focus {
+            width: 350px;
+            transition: 0.4s;
+        }
+        button {
+            padding: 10px;
+            background-color: teal;
+            border-radius: 10px;
+            outline: none;
+        }
+        form::after {
+           content: "\21DA"
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <form>
+            <input type="text" placeholder="search here ...">
+            <button>GO</button>
+        </form>
+        <nav>
+            <a href="">Our Team</a>
+            <a href="">Subscribe</a>
+            <a href="">Contacts</a>
+        </nav>
+    </header>
+    
+</body>
+</html>
